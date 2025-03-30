@@ -137,7 +137,7 @@ const About = () => {
 
             <div className='mt-5 justify-evenly text-justify'>
               <p className='text-gray-600 dark:text-gray-300'>
-              Full-Stack Mobile Developer with 5+ years of expertise in iOS development and a strong foundation in computer science. Passionate about building scalable, user-centric applications, with experience across startups (Encoders Technologies, CyberSWIFT) and enterprises (Infosys). Proven track record in mobile app development, e-commerce solutions, and banking applications (HSBC Kinetic). Combines technical proficiency in Swift, Objective-C, and modern frameworks with a commitment to clean code and agile methodologies. Eager to leverage cross-functional skills in a collaborative environment to solve complex problems and deliver impactful digital experiences.
+              Full-Stack Mobile Developer with 7+ years of expertise in iOS development and a strong foundation in computer science. Passionate about building scalable, user-centric applications, with experience across startups (Encoders Technologies, CyberSWIFT) and enterprises (Infosys). Proven track record in mobile app development, e-commerce solutions, and banking applications (HSBC Kinetic). Combines technical proficiency in Swift, Objective-C, and modern frameworks with a commitment to clean code and agile methodologies. Eager to leverage cross-functional skills in a collaborative environment to solve complex problems and deliver impactful digital experiences.
               </p>
             </div>
           </div>

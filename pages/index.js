@@ -23,33 +23,35 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-        <title>Shiv&apos;s Portfolio</title>
-        {/* <!-- Primary Meta Tags --> */}
-        <meta content="Shiv's Portfolio" name="title" />
-        <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" />
-
-        {/* <!-- Open Graph / Facebook --> */}
-        <meta content="website" property="og:type" />
-        <meta content="https://shiv-s-portfolio.vercel.app" property="og:url" />
-        <meta content="Shiv's Portfolio" property="og:title" />
-        <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." property="og:description" />
-        <meta content="https://shiv-s-portfolio.vercel.app/images/welcome-screen.png" property="og:image" />
-
-        {/* <!-- Twitter --> */}
-        <meta content="https://shiv-s-portfolio.vercel.app/images/welcome-screen.png" property="twitter:card" />
-        <meta content="https://shiv-s-portfolio.vercel.app" property="twitter:url" />
-        <meta content="Shivraj Gurjar - Portfolio" property="twitter:title" />
-        <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." property="twitter:description" />
-        <meta content="https://shiv-s-portfolio.vercel.app/images/welcome-screen.png" property="twitter:image" />
-
-        {/* <!-- Other Meta Tags --> */}
-        <meta content="portfolio, Next.js, React.js, web development, dark theme, light theme, best portfolio github, best next js portfolio, how to make a portfolio, best react js portfolio github, best react js portfolio, best next js portfolio, react js developer in Kota, react js developer in Jaipur, react js developer in India, react js developer in Rajasthan" name="keywords" />
-        <meta content="Shivraj Gurjar" name="author" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-        {/* <!-- Favicon --> */}
-        <link href="https://shiv-s-portfolio.vercel.app/favicon.ico" rel="icon" type="image/x-icon" />
-
+        <title>Surjava Ghosh | Full-Stack Developer</title>
+        
+        {/* Primary Meta Tags */}
+        <meta name="title" content="Surjava Ghosh - Full-Stack Developer" />
+        <meta name="description" content="Professional portfolio of Surjava Ghosh, showcasing expertise in iOS, Android, and full-stack development with 7+ years of experience." />
+        
+        {/* Favicon - Local file from public folder */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://surjava.com" />
+        <meta property="og:title" content="Surjava Ghosh - Full-Stack Developer" />
+        <meta property="og:description" content="Professional portfolio showcasing 7+ years of mobile and full-stack development experience." />
+        <meta property="og:image" content="/images/social-preview.png" />
+        
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://surjava.com" />
+        <meta property="twitter:title" content="Surjava Ghosh - Full-Stack Developer" />
+        <meta property="twitter:description" content="Professional portfolio showcasing 7+ years of mobile and full-stack development experience." />
+        <meta property="twitter:image" content="/images/social-preview.png" />
+        
+        {/* Other Meta Tags */}
+        <meta name="keywords" content="iOS developer, Android developer, flutter developer, mobile app development, React Native, Swift, Kotlin, portfolio" />
+        <meta name="author" content="Surjava Ghosh" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div>
         <div>
