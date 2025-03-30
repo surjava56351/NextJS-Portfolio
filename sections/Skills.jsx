@@ -29,13 +29,13 @@ const TechStack = () => {
 
     techStackObserver.observe(techStackRef.current);
 
-    if (istechStack) {
-      techBoxesRef.current.classList.add("pop-up-child");
-      buttonsRef.current.classList.add("pop-up");
-    } else {
-      techBoxesRef.current.classList.remove("pop-up-child");
-      buttonsRef.current.classList.remove("pop-up");
-    }
+    // if (istechStack) {
+    //   techBoxesRef.current.classList.add("pop-up-child");
+    //   buttonsRef.current.classList.add("pop-up");
+    // } else {
+    //   techBoxesRef.current.classList.remove("pop-up-child");
+    //   buttonsRef.current.classList.remove("pop-up");
+    // }
   }, [istechStack]);
 
   useEffect(() => {
@@ -45,7 +45,7 @@ const TechStack = () => {
     setSectionData(selectedSection ? selectedSection[section] : []);
 
     setTimeout(() => {
-      techBoxesRef.current.classList.add("pop-up-child");
+       techBoxesRef.current.classList.add("pop-up-child");
     }, 300);
   }, [section]);
 

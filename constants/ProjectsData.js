@@ -1,29 +1,47 @@
 export const ProjectsData = [
     {
-        projectName: "Shovee : Personal Portfolio Generator",
-        liveUrl: "https://shovee.com",
+        projectName: "EVE Business : WORK FAST WORK EASY",
+        liveUrl: "https://apps.apple.com/in/app/eve-business/id1413642150",
         githubUrl: "https://github.com/iamshiv007/shovee",
         projectImage: {
-            imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696218285/yn3naeznjfgszsbbjr92.png"
+            imageUrl: "https://i.postimg.cc/8s8KHvYK/Capture.jpg"
         },
-        techs: ["NextJS", "TailwindCSS", "Redux Toolkit", "Cloudinary", "Intersection Objerver"]
+        techs: ["iOS", "Swift", "Google Maps", "Firebase", "Analytics"]
     },
     {
-        projectName: "YouTube clone",
-        liveUrl: "https://youtube-clone-shivraj.vercel.app",
+        projectName: "DARPAN WBPDCL",
+        liveUrl: "https://apps.apple.com/us/app/id1575363483",
         githubUrl: "https://github.com/iamshiv007/yotube-clone",
         projectImage: {
-            imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696218286/t1zjvlwogccwit9888w7.png"
+            imageUrl: "https://i.postimg.cc/DydHgj21/Capture.jpg"
         },
-        techs: ["ReactJS", "ContextAPI", "ChakraUI", "YoutubeAPI", "ContextAPI"]
+        techs: ["iOS", "Swift", "Open Street Maps", "SQLite", "Firebase"]
     },
     {
-        projectName: "Eccommerce Application",
-        liveUrl: "https://ecommerce-application-shivraj.vercel.app",
+        projectName: "Cyber Engine",
+        liveUrl: "https://apps.apple.com/in/app/cyber-engine/id1582760310",
         githubUrl: "https://github.com/iamshiv007/ecommerce-frontend",
         projectImage: {
-            imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696220173/lnnt6nmesjvvmo3nx9ep.png"
+            imageUrl: "https://i.postimg.cc/3NjStNH3/Capture.jpg"
         },
-        techs: ["ReactJS", "NodeJS", "Express", "MongoDB", "Redux Toolkit"]
+        techs: ["iOS", "Swift", "Open Street Maps", "MongoDB", "MixPanel"]
+    },
+    {
+        projectName: "Jalshakti Jharkhand",
+        liveUrl: "https://apps.apple.com/in/app/jalshakti-jharkhand/id1474588614",
+        githubUrl: "https://github.com/iamshiv007/ecommerce-frontend",
+        projectImage: {
+            imageUrl: "https://i.postimg.cc/wT0FMSq4/Capture.jpg"
+        },
+        techs: ["iOS", "Objective C", "SQLite", "RazorPay", "Firebase"]
+    },
+    {
+        projectName: "Dabadigo",
+        liveUrl: "https://apps.apple.com/by/app/dabadigo/id1577533214",
+        githubUrl: "https://github.com/iamshiv007/ecommerce-frontend",
+        projectImage: {
+            imageUrl: "https://i.postimg.cc/g21V6pfs/Capture.jpg"
+        },
+        techs: ["Flutter", "Dart", "BLE", "SQLite", "Google Maps"]
     }
 ]

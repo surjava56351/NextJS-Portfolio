@@ -1,10 +1,17 @@
-import React, { Fragment, useState } from "react";
+import React, {Fragment, useEffect, useState } from "react";
 import axios from "axios";
 import { FiMessageCircle } from "react-icons/fi";
 
 const SendMail = () => {
   const [formData, setFormData] = useState({});
   const [sending, setSending] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true); 
+  }, []);
+  
+  if (!isMounted) return null; 
 
   const collectData = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

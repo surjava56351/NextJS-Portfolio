@@ -43,7 +43,7 @@ const Intro = () => {
   return (
     <Fragment>
       <Head>
-        <title>Shiv&apos;s Portfolio</title>
+        <title>Surjava&apos;s Portfolio</title>
       </Head>
       <section id='home'>
         <div
@@ -58,11 +58,11 @@ const Intro = () => {
               Hi There !
             </p>
             {/* Profile Name */}
-            <p className='text-2xl md:text-4xl py-2 font-semibold font-sans'>
-              I&apos;m a full stack
+            <p className='text-2xl md:text-xl py-2 font-semibold font-sans'>
+              I&apos;m a Full-stack developer.
               <span className='text-[#c72c6c] dark:text-[#07d0e5]'>
                 {" "}
-                developer <span className='text-white'>|</span>
+                Turning ideas into intuitive apps with clean code and cutting-edge tech.
               </span>
             </p>
             <div className='mt-5 md:mt-10 flex gap-3'>
@@ -76,7 +76,7 @@ const Intro = () => {
               {/* Download CV Button */}
               <Link
                 className='text-xl font-semibold rounded border border-red-500 hover:text-white hover:bg-red-500 px-2 py-1'
-                href='https://drive.google.com/file/d/1uk-tv12y8PK-WrE4oX2xRtmSy4PUVSsE/view'
+                href='https://drive.google.com/file/d/18QAzrAYBjSDLbtsWI28ob6YRrNJjAm9A/view'
                 target='_blank'
               >
                 Download CV

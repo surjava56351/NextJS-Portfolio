@@ -96,7 +96,7 @@ const Project = () => {
                       </Link>
                     )}
                     {/* Live url */}
-                    {project.githubUrl && (
+                    {/* {project.githubUrl && (
                       <Link
                         className='text-xl text-white p-1 bg-gray-700 hover:bg-gray-950 rounded'
                         href={project.githubUrl}
@@ -104,7 +104,7 @@ const Project = () => {
                       >
                         <BsGithub />
                       </Link>
-                    )}
+                    )} */}
                   </div>
                 </div>
               </div>

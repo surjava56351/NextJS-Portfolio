@@ -2,20 +2,23 @@ import { AiFillHtml5 } from "react-icons/ai";
 import {
   SiNodedotjs,
   SiNextdotjs,
-  SiVercel,
+  SiApple  ,
   SiNetlify,
   SiExpress,
-  SiRedux,
+  SiSwift ,
   SiTailwindcss,
   SiMui,
-  SiChakraui,
+  SiAndroid,
   SiFirebase,
   SiTypescript,
-  SiJquery
+  SiJava,
+  SiKotlin,
+  SiFlutter,
+  SiDart,
 } from "react-icons/si";
 import { DiJavascript1, DiReact, DiMongodb, DiSass } from "react-icons/di";
 import { BsGit, BsGithub } from "react-icons/bs";
-import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaShopify, FaJava } from "react-icons/fa";
+import { FaCss3Alt, FaAngular, FaPhp, FaShopify, FaJava } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import { GrMysql } from "react-icons/gr";
 
@@ -23,16 +26,32 @@ export const TechStackData = [
   {
     Advance: [
       {
+        name: "iOS",
+        icon: <SiApple className="dark:text-white text-black md:text-4xl text-2xl" />
+      },
+      {
+        name: "Android",
+        icon: <SiAndroid className="md:text-4xl text-2xsl" color="#50cbc0" />
+      },
+      {
+        name: "Flutter",
+        icon: <SiFlutter  className="md:text-4xl text-2xl" color="#c9d1d9" />
+      },
+      {
+        name: "Swift",
+        icon: <SiSwift  className="md:text-4xl text-2xl" color="#7e57c2" />,
+      },
+      {
+        name: "Dart",
+        icon: <SiDart className="md:text-4xl text-2xl" color="#c9d1d9" />
+      },
+      {
         name: "ReactJS",
         icon: <DiReact className="md:text-4xl text-2xl" color="#53c1de" />,
       },
       {
         name: "JavaScript",
         icon: <DiJavascript1 className="md:text-4xl text-2xl" color="#ffd600" />,
-      },
-      {
-        name: "Redux-toolkit",
-        icon: <SiRedux className="md:text-4xl text-2xl" color="#7e57c2" />,
       },
       {
         name: "HTML5",
@@ -43,8 +62,8 @@ export const TechStackData = [
         icon: <FaCss3Alt className="md:text-4xl text-2xl" color={"#039be5"} />,
       },
       {
-        name: "Bootstrap",
-        icon: <FaBootstrap className="md:text-4xl text-2xl" color="#673ab7" />,
+        name: "Kotlin",
+        icon: <SiKotlin  className="md:text-4xl text-2xl" color="#673ab7" />,
       },
       {
         name: "Tailwind CSS",
@@ -53,14 +72,6 @@ export const TechStackData = [
       {
         name: "Meterial UI",
         icon: <SiMui className="md:text-4xl text-2xl" color="#29b6f6" />,
-      },
-      {
-        name: "Chakra UI",
-        icon: <SiChakraui className="md:text-4xl text-2xsl" color="#50cbc0" />
-      },
-      {
-        name: "Vercel",
-        icon: <SiVercel className="dark:text-white text-black md:text-4xl text-2xl" />
       },
       {
         name: "Github",
@@ -89,8 +100,8 @@ export const TechStackData = [
         icon: <SiFirebase className="md:text-4xl text-2xl" color="#ffcd33" />
       },
       {
-        name: "jQuery",
-        icon: <SiJquery className="md:text-4xl text-2xsl" color="#106dae" />
+        name: "Java",
+        icon: <SiJava className="md:text-4xl text-2xsl" color="#106dae" />
       },
       {
         name: "netlify",

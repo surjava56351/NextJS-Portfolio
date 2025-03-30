@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { BsPenFill } from "react-icons/bs";
@@ -7,6 +7,13 @@ import { BlogsData } from "@/constants";
 import AnimatedButton from "@/components/buttons/AnimatedButton";
 
 const LatestBlogs = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true); // Ensure this runs only on client
+  }, []);
+
+  if (!isMounted) return null; 
   return (
     <Fragment>
       <section id='blogs'>

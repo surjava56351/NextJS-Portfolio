@@ -1,12 +1,18 @@
-import React, { Fragment, useContext, useState } from "react";
+import React, { Fragment, useContext, useEffect, useState } from "react";
 import axios from "axios";
-
 import { PortfolioContext } from "@/contextApi/PortfolioContext";
 
 const Feedback = () => {
   const [formData, setFormData] = useState({});
   const [submit, setSubmit] = useState(false);
   const { showModal, setShowModal } = useContext(PortfolioContext);
+     const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true); 
+  }, []);
+
+  if (!isMounted) return null; 
 
   const collectData = (e) => {
     const { name, value } = e.target;

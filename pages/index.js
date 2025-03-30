@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
-import ShoveeModal from "@/utils/ShoveeModal";
+// import ShoveeModal from "@/utils/ShoveeModal";
 import About from "@/sections/about";
 import Education from "@/sections/education";
 import Experience from "@/sections/experience";
@@ -85,7 +85,7 @@ const Home = () => {
           {/* Feedback Modal */}
           <Feedback />
           {/* ShoveeModal */}
-          <ShoveeModal />
+          {/* <ShoveeModal /> */}
         </div>
       </div>
     </Fragment>
